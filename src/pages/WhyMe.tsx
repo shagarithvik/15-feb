@@ -3,12 +3,14 @@ import { Heart } from 'lucide-react';
 
 export default function WhyMe() {
   const qualities = [
-    "I'll always be there for you, through thick and thin",
-    "My heart beats only for you, now and forever",
+    "I'll always be there for you........",
+    "Because , you are the one for me",
     "I promise to make you smile, even on the cloudiest days",
-    "I'll be your safe haven, your comfort in storms",
-    "My loyalty and commitment are unwavering",
-    "I bring adventure and spontaneity to our journey",
+    "I promise to never make you cry",
+    "I can be hard to understand but remember , I only love you",
+    "I wanna accompany you on all of your adventures....",
+    "I will wait only for you....",
+    "Its just you or no-one for me ...",
   ];
 
   return (
