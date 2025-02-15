@@ -3,7 +3,7 @@ import React from 'react';
 export default function Gallery() {
   const memories = [
     {
-      image: "src/pages/sample-image.png"
+      image: "src/sample-image.png"
     },
     {
       image: "src/pages/sunset-walks.png"
