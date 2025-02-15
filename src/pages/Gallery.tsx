@@ -4,7 +4,7 @@ import { Camera } from 'lucide-react';
 export default function Gallery() {
   const memories = [
     {
-      image: "https://drive.google.com/file/d/1PUXHHM-oPgaTTJzkBzYLgqYiB7qY6llc/view?usp=sharing",
+      image: "src/pages/sample-image.png",
       caption: "Our First Date"
     },
     {
