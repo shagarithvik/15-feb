@@ -1,18 +1,23 @@
 import React from 'react';
+import { Camera } from 'lucide-react';
 
 export default function Gallery() {
   const memories = [
     {
-      image: "src/sample-image.png"
+      image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&auto=format&fit=crop&q=60",
+      caption: "Our First Date"
     },
     {
-      image: "src/pages/sunset-walks.png"
+      image: "https://images.unsplash.com/photo-1621112904887-419379ce6824?w=800&auto=format&fit=crop&q=60",
+      caption: "Sunset Walks"
     },
     {
-      image: "src/pages/coffee-mornings.png"
+      image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&auto=format&fit=crop&q=60",
+      caption: "Coffee Mornings"
     },
     {
-      image: "src/pages/beach-days.png"
+      image: "https://images.unsplash.com/photo-1508789454646-bef72439f197?w=800&auto=format&fit=crop&q=60",
+      caption: "Beach Days"
     },
   ];
 
@@ -28,9 +33,15 @@ export default function Gallery() {
           <div key={index} className="group relative overflow-hidden rounded-xl shadow-lg">
             <img
               src={memory.image}
-              alt="Gallery Image"
+              alt={memory.caption}
               className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
+            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div className="text-center text-white">
+                <Camera className="w-8 h-8 mx-auto mb-2" />
+                <p className="text-lg font-medium">{memory.caption}</p>
+              </div>
+            </div>
           </div>
         ))}
       </div>
