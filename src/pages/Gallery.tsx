@@ -4,21 +4,16 @@ import { Camera } from 'lucide-react';
 export default function Gallery() {
   const memories = [
     {
-      image: "https://raw.githubusercontent.com/shagarithvik/15-feb/d20f10d1fd0219a5d9a12f5b26cdb94821ed6434/images/sample-image.png",
-
-      caption: "Our First Date"
+      image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-1500213584.jpg",
     },
     {
-      image: "https://images.unsplash.com/photo-1621112904887-419379ce6824?w=800&auto=format&fit=crop&q=60",
-      caption: "Sunset Walks"
+      image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-1609302713.jpg",
     },
     {
-      image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&auto=format&fit=crop&q=60",
-      caption: "Coffee Mornings"
+      image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-1685733709.jpg",
     },
     {
-      image: "https://images.unsplash.com/photo-1508789454646-bef72439f197?w=800&auto=format&fit=crop&q=60",
-      caption: "Beach Days"
+      image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-903759383.jpg",
     },
   ];
 
