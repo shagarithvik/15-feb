@@ -16,7 +16,7 @@ export default function WhyMe() {
       {/* Sample image */}
       <div className="flex justify-center mb-6">
         <img 
-          src="/sample-image.png" 
+          src="src/sample-image.png" 
           alt="Your Image" 
           className="w-32 h-32 rounded-full border-4 border-rose-500 shadow-lg"
         />
