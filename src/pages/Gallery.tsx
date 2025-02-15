@@ -17,11 +17,11 @@ export default function Gallery() {
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {memories.map((memory, index) => (
-          <div key={index} className="overflow-hidden rounded-xl shadow-lg">
+          <div key={index} className="overflow-hidden rounded-xl shadow-lg bg-white p-2">
             <img
               src={memory.image}
               alt={`Memory ${index + 1}`}
-              className="w-full h-80 object-cover object-center rounded-xl"
+              className="w-full h-auto max-h-[400px] object-contain rounded-lg"
             />
           </div>
         ))}
