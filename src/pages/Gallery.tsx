@@ -1,20 +1,11 @@
 import React from 'react';
-import { Camera } from 'lucide-react';
 
 export default function Gallery() {
   const memories = [
-    {
-      image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-1500213584.jpg",
-    },
-    {
-      image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-1609302713.jpg",
-    },
-    {
-      image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-1685733709.jpg",
-    },
-    {
-      image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-903759383.jpg",
-    },
+    { image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-1500213584.jpg" },
+    { image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-1609302713.jpg" },
+    { image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-1685733709.jpg" },
+    { image: "https://raw.githubusercontent.com/shagarithvik/15-feb/main/images/Snapchat-903759383.jpg" },
   ];
 
   return (
@@ -26,18 +17,12 @@ export default function Gallery() {
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {memories.map((memory, index) => (
-          <div key={index} className="group relative overflow-hidden rounded-xl shadow-lg">
+          <div key={index} className="overflow-hidden rounded-xl shadow-lg">
             <img
               src={memory.image}
-              alt={memory.caption}
-              className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+              alt={`Memory ${index + 1}`}
+              className="w-full h-80 object-cover object-center rounded-xl"
             />
-            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-              <div className="text-center text-white">
-                <Camera className="w-8 h-8 mx-auto mb-2" />
-                <p className="text-lg font-medium">{memory.caption}</p>
-              </div>
-            </div>
           </div>
         ))}
       </div>
