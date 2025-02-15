@@ -4,20 +4,20 @@ import { MapPin, Heart } from 'lucide-react';
 export default function OurJourney() {
   const milestones = [
     {
-      date: "First Meeting",
-      description: "The day our eyes met and hearts connected",
+      date: "15-feb-2023",
+      description: "The day we first talked to each other , holds a very special place in my heart",
     },
     {
-      date: "First Date",
-      description: "A magical evening that marked the beginning of our story",
+      date: "03-Mar-2023",
+      description: "The first chocolate I have you (you didn't know but had to go through a lot for that one)..",
     },
     {
-      date: "First Kiss",
-      description: "A moment that felt like time stood still",
+      date: "06-Mar-2023",
+      description: "it still feels like yesterday, that night of chill , that excitement ,, it was the best day of my life...",
     },
     {
-      date: "Adventures Together",
-      description: "Every day brings new excitement with you",
+      date: "22-Mar-2023",
+      description: "The day... it was vereyy levell amma ... waiting for days like that...",
     },
   ];
 
