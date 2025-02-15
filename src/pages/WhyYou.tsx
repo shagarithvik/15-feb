@@ -4,12 +4,12 @@ import { Star } from 'lucide-react';
 export default function WhyYou() {
   const reasons = [
     {
-      title: "Your Smile",
-      description: "The way your smile brightens up even the darkest days",
+      title: "Your Heart",
+      description: "Ive fell in love with you without even seeing you ...",
     },
     {
-      title: "Your Heart",
-      description: "Your kindness and compassion know no bounds",
+      title: "Your Eyes",
+      description: "They possess the magic to keep me restrained...",
     },
     {
       title: "Your Spirit",
@@ -17,7 +17,7 @@ export default function WhyYou() {
     },
     {
       title: "Your Support",
-      description: "How you believe in me, even when I doubt myself",
+      description: "You clear my mind when Im stuck",
     },
     {
       title: "Your Love",
