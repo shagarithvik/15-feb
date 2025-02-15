@@ -27,6 +27,8 @@ Do you remember it? ,, all of a sudden , sharanya exchanged with your phone and 
 I even saw star constellations for the first time when I was talking to you ...
       </p>
       <p className="max-w-md text-lg text-gray-700">
+I have a lot more to say but.....      </p>
+      <p className="max-w-md text-lg text-gray-700">
       YOU WERE EVERYTHING   
       </p>
       <button
