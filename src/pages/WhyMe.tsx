@@ -12,11 +12,18 @@ export default function WhyMe() {
   ];
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-rose-700 mb-4">Why Me?</h1>
-        <p className="text-lg text-rose-600">Let me share what makes me special for you</p>
+    <div className="p-8 max-w-4xl mx-auto text-center">
+      {/* Sample image */}
+      <div className="flex justify-center mb-6">
+        <img 
+          src="/sample-image.png" 
+          alt="Your Image" 
+          className="w-32 h-32 rounded-full border-4 border-rose-500 shadow-lg"
+        />
       </div>
+
+      <h1 className="text-4xl font-bold text-rose-700 mb-4">Why Me?</h1>
+      <p className="text-lg text-rose-600 mb-8">Let me share what makes me special for you</p>
 
       <div className="grid gap-6 md:grid-cols-2">
         {qualities.map((quality, index) => (
